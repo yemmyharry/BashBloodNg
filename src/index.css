@@ -76,3 +76,16 @@ figcaption {
 .socialicons {
   margin: 10px;
 }
+
+/* centres styling */
+
+.searchInput {
+  width: 100%;
+  border-radius: 5px;
+}
+.searchInput :focus {
+  border: 3px solid #da1010;
+}
+.search {
+  margin-top: 30px  ;
+}
