@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Logo from '../src/images/bashblood.svg'
 
 
+
 class Navbar extends Component {
     render(){
         return(
@@ -17,9 +18,9 @@ class Navbar extends Component {
                 <li><Link to="/about">About</Link></li> 
                 <li><Link to="/centres">Centres</Link></li> 
                 <li><Link to="/signin">Sign In</Link></li>     */}
-                <li><a href="#">Home</a></li>
+                <li><Link to="/home">Home</Link></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Centres</a></li>
+                <li><Link to="/centres">Centres</Link></li>
                 <li><a href="#">Sign In</a></li>
             </ul>
             <ul className="sidenav blue lighten-3" id="side-menu">
